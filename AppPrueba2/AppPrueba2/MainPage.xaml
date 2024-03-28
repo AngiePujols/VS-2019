@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPrueba2.MainPage">
+
+    <StackLayout>
+        <?Editor Text="Esto es un editor"/>
+        <?Editor Text="Esto es otro editor"/>
+        <?Label Text="Esto es un Label"/>
+        <?Entry/>
+        <Entry Placeholder="Usuario"/>
+        <Bottom Text="Aceptar" 
+                BackgroundColor="#ffff" 
+                TextColor="White" 
+                FontSize="20" 
+                FontAttributes="Bold" 
+                ConerRadius="50" 
+                BorderColor="#ffff" 
+                BorderWidth="4" 
+                WidthRequest="200"
+                HeightRequest="100"/>
+                
+    </StackLayout>
+
+</ContentPage>

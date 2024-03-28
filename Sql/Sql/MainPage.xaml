@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sql.MainPage">
+
+    <StackLayout >
+        <Label Text="Registro de alumnos"  HorizontalOptions="Center"
+               VerticalOptions="Center"></Label>
+        <Entry x:Name="txtNombre"    Placeholder="Nombre" />
+        <Entry x:Name="txtApellido"  Placeholder="Apellido"/>
+        <Entry x:Name="txtEdad"      Placeholder="Edad"/>
+        <Entry x:Name="txtEmail"     Placeholder="Email"/>
+        <Button x:Name="btnregistrar" Text="registrar alunmo" Clicked="btnregistrar_Clicked"
+                BackgroundColor="#3383FF " TextColor="White"/>
+    </StackLayout>
+
+</ContentPage>

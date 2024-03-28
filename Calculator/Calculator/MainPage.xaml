@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+    <StackLayout Background="white">
+        <Frame BackgroundColor="#2196f3" Padding="24" CornerRadius="0">
+            <Label Text="Caltuladora Basica Parte2" HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+        </Frame>
+        <BoxView HeightRequest="2" Color="#F1270C" HorizontalOptions="FillAndExpand"/>
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Text="valor #1" x:Name="lbnum1" FontSize="20" TextColor="DarkBlue" FontAttributes="Bold" Padding="5" Grid.Row="0" Grid.Column="0"/>
+            <Entry x:Name="num1" Placeholder="Enter num1" FontAttributes="Bold" Keyboard="Numeric" Grid.Row="0" Grid.Column="1" TextColor="Black" PlaceholderColor="Black"/>
+
+            <Label Text="valor #2" x:Name="lbnum2" FontSize="20" TextColor="DarkBlue" FontAttributes="Bold" Padding="5" Grid.Row="1" Grid.Column="0"/>
+            <Entry x:Name="num2" Placeholder="Enter num2" FontAttributes="Bold" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" TextColor="Black" PlaceholderColor="Black"/>
+
+            <Label x:Name="labelres" Text="El Resultaldo" FontSize="20" TextColor="DarkBlue" FontAttributes="Bold" Grid.Row="2" Grid.Column="0"/>
+            <Label x:Name="res" FontSize="18" TextColor="Green" FontAttributes="Bold" Grid.Row="3" Grid.Column="0"/>
+            <Button x:Name="btnsumar" Text="Suma" FontAttributes="Bold" BorderWidth="5" CornerRadius="25" BackgroundColor="#EF6D6D" Grid.Row="3" Grid.Column="0"/>
+            <Button x:Name="btnresta" Text="Resta" FontAttributes="Bold" BorderWidth="5" CornerRadius="25" BackgroundColor="#EF6D6D" Grid.Row="3" Grid.Column="1"/>
+            <Button x:Name="btnmulti" Text="Multiplicación" FontAttributes="Bold" BorderWidth="5" CornerRadius="25" BackgroundColor="#EF6D6D" Grid.Row="4" Grid.Column="0"/>
+            <Button x:Name="btndivi" Text="División" FontAttributes="Bold" BorderWidth="5" CornerRadius="25" BackgroundColor="#EF6D6D" Grid.Row="4" Grid.Column="1"/>
+            <Button x:Name="btnclesar" Text="Limpiar" FontAttributes="Bold" BorderWidth="5" CornerRadius="25" BackgroundColor="#EF6D6D" Grid.Row="5" Grid.Column="1"/>
+
+        </Grid>
+        <BoxView HeightRequest="5" Color="#F1270C" HorizontalOptions="FillAndExpand"/>
+        <Label Text="copy right @ by AngiePG" HorizontalOptions="Center" TextColor="Black" FontSize="15"/>
+    </StackLayout>
+
+</ContentPage>

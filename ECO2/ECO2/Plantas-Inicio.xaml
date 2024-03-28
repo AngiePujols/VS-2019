@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ECO2.Plantas_Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="Azure" Padding="5">
+
+                <BoxView WidthRequest="5"  BackgroundColor="#357C3C"/>
+                <Frame BackgroundColor="#357C3C" HeightRequest="70" CornerRadius="0" >
+                    <Image Source="miguel.jpg" Margin="-22"/>
+                </Frame>
+                <BoxView WidthRequest="5"  BackgroundColor="#357C3C"/>
+                <Label Text="Profesor(a): Miguel David Garcia" TextColor="Black" 
+                   FontSize="20" FontAttributes="Bold"
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <BoxView WidthRequest="5"  BackgroundColor="#357C3C"/>
+                <Button BackgroundColor="white" ImageSource="link.png"/>
+                <BoxView WidthRequest="5"  BackgroundColor="#357C3C"/>
+
+            </StackLayout>
+            <Frame BackgroundColor="#357C3C">
+                <Label Text="Listado de Estudiantes de 6to A" TextColor="White"
+                   FontSize="20" FontAttributes="Bold"
+                   />
+
+
+            </Frame>
+
+
+            <ScrollView>
+                <StackLayout>
+                    <Button Image="image.jpg" Text="Joseph Elyan Amarante- 
+                        17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+                    <Button ImageSource="Alex.jpg" Text="Alexander Antonio Brito Soto- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+                    <Button ImageSource="jeremy.jpg" Text="Jeremy Caraballo Duarte- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+                    <Button ImageSource="clau.jpg" Text="Claudia Carolina Carrión Comprés- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+
+                    <Button ImageSource="liz.jpg" Text="Liz Carolina De la Cruz Vicente- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+
+                    <Button ImageSource="Emma.jpg" Text="Enmanuel Gil Rodríguez- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+
+                    <Button ImageSource="fe.jpg" Text="Felix Alejandro Guzman- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+
+                    <Button ImageSource="guille.jpg" Text="Elpidio Guillermo Márquez Almánzar- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+
+                    <Button ImageSource="edu.jpg" Text="Eduardo José Medina Balbi- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+                    <Button ImageSource="al.jpg" Text="Albert Mejía Howley- 
+                        17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+
+                    <Button ImageSource="jero.png" Text="Jerónimo Meléndez Cifré- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+
+                    <Button ImageSource="is.png" Text="Ismael Moquete Eduardo- 18 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+
+                    <Button ImageSource="marcos.png" Text="Marco Antonio Peralta Marte- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+
+                    <Button ImageSource="frank.png" Text="Frank Arturo Pockels Méndez- 18 años " 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+
+                    <Button ImageSource="yo.png" Text="Angie Marie Pujols Guzmán- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+
+                    <Button ImageSource="al.png" Text="Alfredo Antonio Quezada Díaz- 18 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE" FontFamily="lobster"/>
+
+
+                    <Button ImageSource="ernesto.png" Text="Ernesto Alejandro Rosario Encarnación- 
+                        17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+
+                    <Button ImageSource="marcos.png" Text="Marco Antonio Peralta Marte- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+                    <Button ImageSource="say.png" Text="Saymond Omar Santos Castillos- 17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+                    <Button ImageSource="emil.png" Text="Emil Torres Áviles- 
+                        17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+                    <Button ImageSource="luis.png" Text="Luis Daniel Olivero Lora- 
+                        17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#E0DDAA"/>
+
+                    <Button ImageSource="juani.jpg" Text="Juany Mery De camps Encarnación- 
+                        17 años" 
+                       HeightRequest="100" TextColor="Black" 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        BorderWidth="4"
+                        BorderColor="Black"
+                        BackgroundColor="#97DBAE"/>
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+</ContentPage.Content>
+</ContentPage>

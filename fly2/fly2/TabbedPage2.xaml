@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  xmlns:Tabbeddevice="clr-namespace:Tabbeddevice"
+             x:Class="fly2.TabbedPage2" 
+            Title="ChatCafam"
+            BarBackgroundColor="#002973"
+            BarTextColor="Azure">
+    <!--Pages can be added as references or inline-->
+    <Tabbeddevice:Chats Title="CHATS" IconImageSource="chat.png"/>
+    <Tabbeddevice:Camara Title="CAMARA" IconImageSource="obturador.png"/>
+    <Tabbeddevice:Llamada Title="LLAMADA" IconImageSource="telephonecall.png"/>
+
+</TabbedPage>

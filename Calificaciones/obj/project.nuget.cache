@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZsTpWZmUmaEfd4JxIcE93MWsxHpE9hAJqhNiKA/PCjq0P6JpjN1cC94pcKE08RsmEJxwtaotL10vVCIuGnw2cg==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio 2019\\Calificaciones\\Calificaciones.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\angie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512",
+    "C:\\Users\\angie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\angie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\angie\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

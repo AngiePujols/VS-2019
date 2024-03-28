@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="Colegio.MainPage">
+
+              
+    <StackLayout BackgroundColor="White">
+        
+        <Frame 
+       HeightRequest="180"
+       WidthRequest="120">
+            <StackLayout>
+                <Image Source="cafamlogo2.png" HeightRequest="65"  Margin="85 60 0 0 " />
+                <Label Text="¡Todo lo que necesitas saber sobre plantas!" Margin="-2 0 0 3" FontSize="16" TextColor="White"  />
+            </StackLayout>
+            
+            <Frame.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#90D950" Offset="0.1"/>
+                    <GradientStop Color="#72AA42" Offset="1.0"/>
+                    <GradientStop Color="#72AA42" Offset="0.2"/>
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+       
+        <Grid >
+            <Grid HeightRequest="130" Margin="20,6,20,0" RowSpacing="20" ColumnSpacing="10"  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120" />
+                    
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton  Grid.Row="0" Grid.Column="0" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="cal2.png" CornerRadius="3"/>
+                <ImageButton  Grid.Row="0" Grid.Column="1" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="pla.png" CornerRadius="3"/>
+                <ImageButton  Grid.Row="0" Grid.Column="2" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="li.png" CornerRadius="3"/>
+                
+
+               
+            </Grid>
+        </Grid>
+            <StackLayout>
+            <Label Text="Plantas" Margin="10 0 0 20" FontSize="28" TextColor="#464444" TextTransform="Uppercase" FontAttributes="Bold" />
+            <Grid >
+                <Grid HeightRequest="130" Margin="20,6,20,0" RowSpacing="20" ColumnSpacing="10"  >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                   
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton  Grid.Row="0" Grid.Column="0" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="orqui.jpg" CornerRadius="3"/>
+                    <ImageButton  Grid.Row="0" Grid.Column="1" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="agla.jpg" CornerRadius="3"/>
+                    <ImageButton  Grid.Row="0" Grid.Column="2" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="li.png" CornerRadius="3"/>
+
+
+
+
+                </Grid>
+            </Grid>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="ARTÍCULO" Margin="20 0 0 20" FontSize="28" TextColor="#464444" TextTransform="Uppercase" FontAttributes="Bold" />
+            <Grid >
+                <Grid HeightRequest="130" Margin="20,6,20,0" RowSpacing="20" ColumnSpacing="10"  >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="130" />
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton  Grid.Row="0" Grid.Column="0" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="cal2.png" CornerRadius="3"/>
+              
+
+
+
+                </Grid>
+            </Grid>
+        </StackLayout>
+
+    </StackLayout>
+   
+</ContentPage>

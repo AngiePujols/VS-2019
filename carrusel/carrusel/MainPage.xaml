@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="carrusel.MainPage">
+ 
+    
+            <StackLayout BackgroundColor="White">
+
+
+        <ScrollView>
+            
+            <StackLayout BackgroundColor="White" HeightRequest="920">
+                <Frame>
+                    <StackLayout BackgroundColor="Transparent">
+
+
+
+
+
+                        <Image
+                             
+                     
+                            Source="cafamlogo2.png"
+                          Margin="30,50,100,-30"
+                       HeightRequest="100"
+                        />
+       
+
+                        <Label x:Name="co2" Text="ECO2"  
+                       Margin="30,5,0,80"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                        HorizontalTextAlignment="Start"
+                       FontSize="25"/>
+
+                        <Label x:Name="UserClases" Text="¡Todo lo que necesitas saber sobre plantas!"  
+                       HorizontalTextAlignment="Center"
+                            Margin="-10,-90,0,60"
+                       FontAttributes="Italic"
+                       TextColor="White"
+                       
+                       FontSize="15"/>
+
+
+
+
+
+
+
+                    </StackLayout>
+
+                    <Frame.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="#90D950" Offset="0.1"/>
+                        <GradientStop Color="#72AA42" Offset="1.0"/>
+                        <GradientStop Color="#72AA42" Offset="0.2"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+                </Frame>
+                
+
+
+
+
+
+                <Frame CornerRadius="40" BorderColor="White"  Margin="0,-40,0,-40" HeightRequest="900">
+
+                    <StackLayout>
+                        <StackLayout>
+                            <Grid >
+                                <Grid HeightRequest="130" Margin="10,5,10,0" RowSpacing="20" ColumnSpacing="10"  >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="80" />
+
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <ImageButton  Grid.Row="0" Grid.Column="0" WidthRequest="60" HeightRequest="40"  BackgroundColor="#F281C149" Padding="5"
+            Source="cal2.png" CornerRadius="3"/>
+                                    <ImageButton  Grid.Row="0" Grid.Column="1" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="pla.png" CornerRadius="3"/>
+                                    <ImageButton  Grid.Row="0" Grid.Column="2" WidthRequest="60" HeightRequest="90"  BackgroundColor="#F281C149" Padding="5"
+            Source="li.png" CornerRadius="3"/>
+
+
+
+                                </Grid>
+                            </Grid>
+                        </StackLayout>
+
+                        <Label Text="Bienvenidos" 
+                               Margin="10,-30,0,-40" 
+                               FontSize="20" TextColor="#464444"  FontAttributes="Bold"  />
+
+
+
+                       
+
+                            <Frame BorderColor="#8FB66F" Padding="10" Margin="10,40,10,0">
+                            <Label Text="Bienvenido/a a ECO2, una aplicación creada con el fin de conseguir un aire más limpio para todos. ECO2 cuenta con diferentes secciones en las que podrás manejar y conocer nuevas características del CO2 y las plantas que ayudan a reducirlo. Junto con la lista de plantas que ayudan a reducir el nivel de CO2 en el aire, te proporcionamos un conjunto de artículos informativos y una calculadora con la que podrás conocer el nivel de CO2 producido en tu área y una tabla con rangos. "  FontSize="14" TextColor="#464444"  Padding="5"/>
+                            </Frame>
+                        
+                        
+                        <StackLayout BackgroundColor="#fff"  Margin="-10,0,0,-40" WidthRequest="300" HeightRequest="300">
+
+
+
+
+                            <Label Text="Plantas"
+                       Margin="20,20,-10,-40"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       
+                       FontSize="18"
+                                   HorizontalTextAlignment="Start"
+                                   />
+
+
+
+                            <CarouselView ItemsSource="{Binding Premios}"
+                          BackgroundColor="Transparent"
+                          PeekAreaInsets="100"
+                                         
+                                          HeightRequest="300"
+                                         
+                                           
+                                          >
+                                <CarouselView.ItemsLayout>
+                                    <LinearItemsLayout
+                                       Orientation="Horizontal"
+                                             
+                                            ItemSpacing="0"
+                                       SnapPointsAlignment="Start"
+                                       SnapPointsType="Mandatory">
+
+                                    </LinearItemsLayout>
+
+                                </CarouselView.ItemsLayout>
+                                <CarouselView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackLayout>
+                                            <Frame
+                                   BorderColor="#8FB66F"
+                                       
+                                   VerticalOptions="CenterAndExpand"
+                                                    CornerRadius="10"
+                                                       Margin="10,40,0,10"
+                                                       HeightRequest="200">
+                                                <StackLayout>
+                                                    <Image Source="{Binding Image}"/>
+                                                    <Label Text="{Binding Name}"
+                                          TextColor="#8FB66F"
+                                           />
+
+                                                </StackLayout>
+                                            </Frame>
+                                        </StackLayout>
+                                    </DataTemplate>
+                                </CarouselView.ItemTemplate>
+                            </CarouselView>
+                        </StackLayout>
+                        <StackLayout>
+
+
+
+
+
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                </Frame>
+
+            </StackLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </StackLayout>
+      
+
+</ContentPage>
+
+

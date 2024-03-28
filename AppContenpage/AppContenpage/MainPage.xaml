@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppContenpage.MainPage">
+
+    <StackLayout BackgroundColor="DodgerBlue" Orientation="Horizontal" Spacing="15" Padding="40" VerticalOptions="Center" HorizontalOptions="Center">
+        
+        <StackLayout Spacing="0">
+            <Image Source="https://static.vecteezy.com/packs/media/components/global/search-explore-nav/img/vectors/term-bg-1-666de2d941529c25aa511dc18d727160.jpg" WidthRequest="100"/>
+
+            <Label Text="Label1" BackgroundColor="Azure" TextColor="Black" />
+
+
+        </StackLayout>
+        <Label Text="label1"/>
+        <Label Text="label2"/>
+        <Label Text="label3"/>
+        <Label Text="label4"/>
+    </StackLayout>
+    
+</ContentPage>

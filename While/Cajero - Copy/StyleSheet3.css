@@ -1,0 +1,39 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('2841301-01.jpg');
+}
+
+.cont {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid #c56969;
+    background-color: #9143d6;
+    border-radius: 5px;
+}
+
+.gpderecha {
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    margin-right: 1px;
+    padding: 50px;
+}
+
+.gpizquierda {
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    margin-left: 1px;
+    padding: 50px;
+}
+
+.contenedor {
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    background-color: #9143d6;
+    margin-top: 10px;
+    border: 2px solid#62efd6;
+}

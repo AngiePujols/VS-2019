@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grip.MainPage">
+
+
+    <Grid BackgroundColor="#F3D531" RowSpacing="20" ColumnSpacing="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Text="primero"  TextColor="Black" Grid.Column="0" Grid.Row="0" BackgroundColor="#31F3C4"/>
+        <Label Text="segundo" TextColor="Black" Grid.Column="1" Grid.Row="0" BackgroundColor="#31F3C4"/>
+        <Label Text="tercero" TextColor="Black" Grid.Column="0" Grid.Row="1" BackgroundColor="#31F3C4"/>
+        <Label Text="cuarto" TextColor="Black" Grid.Column="1" Grid.Row="1" BackgroundColor="#31F3C4"/>
+        <Label Text="cinco" TextColor="Black" Grid.ColumnSpan="3" Grid.Row="2" BackgroundColor="#31F3C4"/>
+        <Label Text="seis" TextColor="Black" Grid.Column="2" Grid.RowSpan="3"  BackgroundColor="#31F3C4"/>
+
+
+    </Grid>
+</ContentPage>

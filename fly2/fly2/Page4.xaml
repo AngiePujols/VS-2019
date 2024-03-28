@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fly2.Page4">
+    <ContentPage.Content>
+
+
+        <StackLayout BackgroundColor="#121212">
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center"   WidthRequest="500" 
+Margin="0,-10,0,0" Padding="20" Spacing="20">
+                <Button Text="1" TextColor="Black" BackgroundColor="#00ff99"  WidthRequest="3" 
+HeightRequest="150" CornerRadius="30"/>
+                <Button Text="2" TextColor="Black" BackgroundColor="#ff9999"  WidthRequest="2" 
+HeightRequest="150" CornerRadius="30"/>
+                <Button Text="3" TextColor="Black" BackgroundColor="#ffcc33"  WidthRequest="2" 
+HeightRequest="280" CornerRadius="30"/>
+
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="2,0,0,0"   
+Spacing="8" >
+                    <Button Text="4" TextColor="Black" BackgroundColor="#33ccff"  
+WidthRequest="120" HeightRequest="120" CornerRadius="30"/>
+                    <Button Text="5" TextColor="Black" BackgroundColor="#ffcc33"  
+WidthRequest="120" HeightRequest="120" CornerRadius="30"/>
+                    <Button Text="6" TextColor="Black" BackgroundColor="#00ff99"  
+WidthRequest="120" HeightRequest="120" CornerRadius="30"/>
+
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
